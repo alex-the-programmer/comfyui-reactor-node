@@ -414,7 +414,7 @@ class LoadFaceModel:
     def INPUT_TYPES(s):
         return {
             "required": {
-                "face_model": ("STRING",),
+                "face_model": ("STRING", {"default": ""),
             }
         }
     
