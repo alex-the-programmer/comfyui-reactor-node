@@ -424,7 +424,7 @@ class LoadFaceModel:
 
     def load_model(self, face_model):
         self.face_model = face_model
-        logger.info("Value of face_nodel:" + face_model)
+        logger.status("Value of face_nodel:" + face_model)
         self.face_models_path = FACE_MODELS_PATH
         if self.face_model != "none":
             face_model_path = os.path.join(self.face_models_path, self.face_model)
